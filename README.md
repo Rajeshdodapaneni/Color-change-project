@@ -34,6 +34,7 @@ Improving UI interaction
 🔹 Use Cases
 
 Perfect for learning DOM
+Usage of switch case statement in Javascript
 
 Useful beginner project for interviews
 
