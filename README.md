@@ -5,7 +5,6 @@ This project is a simple and interactive JavaScript-based Color Change Applicati
 🔹 Features
 
 Users can enter a color name (ex: red, blue, violet)
-Users can enter a HEX code (ex: #ff5733)
 Instantly updates the background color of the display box
 Clean and responsive UI
 Beginner-friendly logic with simple JavaScript functions
