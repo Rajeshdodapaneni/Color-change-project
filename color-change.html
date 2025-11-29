@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,h2{
+            text-align: center;
+            color: blue;
+        }
+        table{
+            border: solid 2px;
+            height: 400px;
+            width: 400px;
+            margin: auto;
+        }
+        td{
+            border: solid 2px;
+            font-size: 30px;
+            text-align: center;
+        }
+        button{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+            border:solid 1px blue;
+            background: linear-gradient(teal,white);
+            font-weight: bold;
+            display: block;
+            margin: 10px auto;
+            cursor: pointer;
+        }
+        input{
+
+            height: 25px;
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            border:solid 1px
+        }
+        form{
+            margin: auto;
+            text-align: center;
+            background-color:aqua;
+            width: 400px;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pick one color which you want!</h1>
+    <table cellspacing="0">
+        <tr>
+            <td>black</td>
+            <td>green</td>
+        </tr>
+        <tr>
+            <td>red</td>
+            <td>Yellow</td>
+        </tr>
+        <tr>
+            <td>blue</td>
+            <td>pink</td>
+        </tr>
+    </table>
+    <button onclick="chngclr()" ondblclick="noneclr()">CHANGE COLOR</button>
+    <script src="./color-change.js"></script>
